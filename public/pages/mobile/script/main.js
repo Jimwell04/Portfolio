@@ -8,3 +8,6 @@ window.setInterval(() => {
   }
 
 }, 0.1);
+
+
+// Main program
