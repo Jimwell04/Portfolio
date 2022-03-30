@@ -3,6 +3,16 @@
   padding: 0;
 }
 
-#txtMenu {
+#menu {
+  display: none;
+}
+
+.btnAdjust {
+  padding-left: 80px;
+  transition: 1s;
+}
+
+.btnDefault {
+  padding: 0;
   transition: 1s;
 }

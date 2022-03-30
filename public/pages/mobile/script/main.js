@@ -11,3 +11,13 @@ window.setInterval(() => {
 
 
 // Main program
+let btnMenu = $("#btnMenu");
+let menu = $("#menu");
+
+btnMenu.on("click", () => {
+  
+  menu.toggle("slow");
+  
+  btnMenu.toggleClass("btnAdjust btnDefault");
+  
+});
