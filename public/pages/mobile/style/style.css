@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 #menu {
   display: none;
 }
@@ -15,4 +23,31 @@
 .btnDefault {
   padding: 0;
   transition: 1s;
+}
+
+#moto {
+  padding-bottom: 15px;
+}
+
+#moto-text {
+  color: #FFFFFF;
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+#moto-description {
+  font-size: 10px;
+  letter-spacing: 0.2rem;
+  margin-top: -15px;
+}
+
+#paragraph {
+  font-size: 15px;
+  letter-spacing: 0.2rem;
+  margin: 3%;
+}
+
+#header {
+  font-size: 20px;
+  margin: 3%;
 }

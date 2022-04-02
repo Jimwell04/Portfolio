@@ -28,6 +28,11 @@ html {
   margin-top: 150px;
 }
 
+#moto-description {
+  font-size: 30px;
+  letter-spacing: 0.2rem;
+}
+
 #text {
   margin: 0;
 }
@@ -49,15 +54,6 @@ html {
   padding-top: 180px;
   margin-right: 10%;
   margin-left: 10%;
-}
-
-#moto-description {
-  font-size: 30px;
-  letter-spacing: 0.2rem;
-}
-
-#moto-button-text {
-  display: inline;
 }
 
 #paragraph {
