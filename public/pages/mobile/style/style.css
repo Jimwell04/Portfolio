@@ -84,3 +84,10 @@ html {
   margin-left: 10%;
 }
 
+#contact {
+  margin: 0;
+}
+
+#contact-btn {
+  margin-top: 20px;
+}
