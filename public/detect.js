@@ -1,5 +1,5 @@
 // Detector
-window.setInterval(() => {
+/*window.setInterval(() => {
   
   if (window.matchMedia("(max-width: 767px)").matches) {
   
@@ -13,4 +13,4 @@ window.setInterval(() => {
   
   }
   
-},0.1);
+},0.1); */
