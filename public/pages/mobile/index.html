@@ -30,9 +30,16 @@
   
   <!--Menu-->
  <div class="ui left fixed vertical inverted labeled icon menu" id="menu">
-   <a href="#about" class="item" data-tooltip="About" data-position="right center">
-     <img src="../../img/jimwell.jpg" class="ui circular image" width="50">
+   
+  <div class="item">
+   <a class="facebook">
+     <div class="image">  
+     <img class="ui circular image" width="50">
+     </div>
    </a>
+  </div>
+   
+   
    <a href="#project" class="item">
      <i class="folder icon"></i>
      Project
@@ -42,15 +49,26 @@
      Contact
    </a>
  </div>
-    
+ 
       <!--Moto-->
       <div id="moto">
 
         <div class="ui inverted vertical placeholder segment">
           <div class="ui center aligned header">
-            <h1 class="ui header" id="moto-text">Jimwell Ibay</h1>
+            <h1 class="ui header" id="moto-text">
+              
+              <div class="fullname">
+                
+              </div>
+              
+              </h1>
             <p id="moto-description">
-              Welcome to the journey of Jimwell also know Jim
+                
+  Welcome to the journey of
+  <span class="name"></span>
+  also know
+  <span class="nickname"></span>
+                
             </p>
             <a href="#start">
               <div class="margin"></div>
@@ -61,6 +79,56 @@
 
       </div>
       
+ <!--Introduction-->
+ 
+ <div class="ui container">
+    
+   <h1>
+     Who is <span class="fullname"></span> 
+   </h1>
+   <p>
+     <span class="fullname"></span> 
+     born on <span class="birthday"></span> , <span class="age"></span> years old he is <span class="profession"></span> but he doesn't work in companies because he only create his own project or program.
+     
+     He is the founder and admin of
+     
+     <a class="grouplink">
+       <span class="group"></span>
+     </a>
+     
+     facebook group <span class="description"></span> and
+     he is grade <span class="grade"></span> in <span class="school"></span> 
+     
+     <span class="fullname"></span> is from <span class="address"></span>.
+     
+   </p>
+    
+  </div>
+ 
+<div class="margin-top"></div>
+ 
+    
+ <div class="image">
+   <img class="ui fluid image">
+ </div>
+    
+ 
+ <div class="margin-top"></div>
+ 
+ <div class="ui container">
+   
+   <h1>
+     <span class="fullname"></span> Skills 
+   </h1>
+   <p>
+     <span class="fullname"></span> 
+   have skills in <span class="skills"></span> and other Programming Languages <span class="otherskills"></span> <span class="fullname"></span> is using cellphone to program all his projects and learn more Programming Languages.
+   </p>
+     
+   
+ </div>
+  
+  <div class="margin-top"></div>
 
   <!--Contact-->
   
@@ -70,7 +138,7 @@
       Message 
     </h1>
 
-    <form action="https://000database.000webhostapp.com/Database/Message/index.php" method="post">
+    <form method="post" class="message">
       <div class="ui vertical inverted placeholder segment">
         <div class="ui centered container">
         <div class="ui column  grid">
@@ -113,19 +181,22 @@
             Contact
           </h1>
           <div class="ui inverted link list">
-            <a href="mailto: jimwellibay040@gmail.com" class="item">
+           <div class="email">
+            <a  class="item">
               <div class="ui google plus fluid button">
                  <i class="mail icon"></i>
                  Email
               </div>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100073787000897" class="item">
+           </div>
+            <div class="item">
+              <a class="facebook">
               <div class="ui facebook fluid button">
               <i class="facebook icon"></i>
               Facebook
+              </a>
               </div>
-
-            </a>
+            </div>
           </div>
         </div>
         <div class="two wide column">
@@ -162,14 +233,30 @@
         <div class="seven wide column">
           <div class="ui divider"></div>
           <h4 class="ui inverted header">What is it</h4>
-          <p>This is the website portfolio of Jimwell Ibay to know who is him.</p>
+          <p>
+            
+            <div class="webdescription">
+
+            </div>
+            
+            </p>
         </div>
       </div>
       <h4 class="ui horizontal inverted divider" id="footer">
-        Jimwell Website Portfolio
+        
+        
+        <div class="webname">
+
+        </div>
+        
+        
       </h4>
-      <p>Release Mar, 18 2022. Last edited July 25, 2022. </p>
-      <p> &copy; Jimwell Ibay</p>
+      
+      <p>
+        Release <span class="release"></span>. Last edited <span class="edited" ></span>. </p>
+      
+      <p> &copy; <span class="fullname"></span> </p>
+      
     </div>
   </div>
 
@@ -179,8 +266,8 @@
 <!--JQuery-->
 <script src="../../framework/jquery/jquery.min.js"></script>
 
-<!--Jimwell Class-->
-<script src="../../class/jimwell/jimwell.js"></script>
+<!--Data-->
+<script src="../../data/data.js"></script>
 
 <!--JavaScript Main-->
 <script src="script/main.js"></script>

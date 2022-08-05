@@ -1,0 +1,35 @@
+{
+  
+  "Name": {
+    "FirstName": "Jimwell",
+    "LastName": "Ibay",
+    "FullName": "Jimwell Ibay",
+    "NickName": "Jim"
+  },
+  
+  "Birth": {
+    "Birthday": "January 4 2005",
+    "Age": "17"
+  },
+  
+  "Address": "Masantol Pampanga",
+  
+  "Career": {
+    "Profession": "Programmer",
+    "Skills": "Web Development",
+    "OtherSkills": "C++, Java and Python"
+  },
+  
+  "Organization": {
+    "FacebookGroup": {
+      "Name": "TVL - ICT Senior Highschool",
+      "Description": "to unite all TVL ICT in Philippines"
+    }
+  },
+  
+  "Academic": {
+    "School": "Masantol Highschool",
+    "Grade": "12 ICT CSS"
+  }
+  
+}
