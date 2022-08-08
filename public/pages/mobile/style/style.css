@@ -91,3 +91,8 @@ html {
 #contact-btn {
   margin-top: 20px;
 }
+
+#loader {
+  margin: 0;
+  padding: 0;
+}

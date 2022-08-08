@@ -13,8 +13,22 @@ window.setInterval(() => {
 // Main program
 let btnMenu = $("#btnMenu");
 let menu = $("#menu");
+let loader = $("#loader");
+let img = $("#image");
+let info = $("#info");
+let modal = $("#modal");
 
 $(document).ready(() => {
+  
+  // Image Load
+  
+  img.on("load",() => {
+    
+    loader.removeClass();
+    
+  });
+  
+  // Navbar
   
   btnMenu.on("click", () => {
   
@@ -22,6 +36,20 @@ $(document).ready(() => {
   
     btnMenu.toggleClass("btnAdjust btnDefault");
   
-})
+  });
+  
+  // Info Modal
+
+  info.on("click", () => {
+    
+    let modal = $("#modal");
+    
+    modal.load("../../data/modal.txt", () => {
+      
+      modal.modal("show");
+      
+    });
+  });
+  
 });
   

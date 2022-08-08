@@ -22,16 +22,23 @@
   <!--Menu-->
     <div class="ui inverted segment">
       <div class="ui top fixed inverted menu">
-        <a href="#project" class="item">
+        <a href="#" class="item">
           Project
         </a>
-        <a href="#contact" class="item">
-          Contact
+        <a href="#message" class="item">
+          Message
         </a>
+        <div class="item" id="info">
+             Info
+        </div>
         <div class="right menu">
-          <a href="#about" class="item" data-tooltip="About Jimwell Ibay" data-position="left center">
-            <img src="../../img/jimwell.jpg" class= "ui circular image" width="50">
-          </a>
+          <div class="item">
+           <a class="facebook">
+           <div class="image">
+            <img class= "ui circular image" width="50">
+           </div>
+           </a>
+          </div>
         </div>
       </div>
       
@@ -40,11 +47,22 @@
       
       <div class="ui inverted vertical footer segment">
          <div class="ui center aligned header">
-           <h1 class="ui header" id="moto-text">Jimwell Ibay</h1>
+           <h1 class="ui header" id="moto-text">
+             
+              <div class="fullname">
+             
+              </div>
+             
+             </h1>
            <p id="moto-description">
-             Welcome to the journey of Jimwell also know Jim
+             
+             Welcome to the journey of
+             <span class="name"></span>
+             also know
+             <span class="nickname"></span>
+             
            </p>
-           <a href="#start">
+           <a href="#started">
              <div class="margin"></div>
               <button class="ui blue basic massive submit button" id="contact-btn">Get started</button>
             </a>
@@ -55,16 +73,71 @@
       
     </div>
     
+ <!--Introduction-->
+    
+  <div class="ui vertical stripe segment">
+    
+    <div id="started"></div>
+    
+    <div class="ui middle aligned stackable grid container">
+      <div class="margin-top"></div>
+      <div class="row">
+        <div class="eight wide column">
+          <h3 class="ui header">
+            Who is <span class="fullname"></span> 
+            </h3>
+          
+           <p>
+             <span class="fullname"></span>
+             born on <span class="birthday"></span> , <span class="age"></span> years old he is <span class="profession"></span> but he doesn't work in companies because he only create his own project or program.
+          
+             He is the founder and admin of
+          
+             <a class="grouplink">
+               <span class="group"></span>
+             </a>
+          
+             facebook group <span class="description"></span> and
+             he is grade <span class="grade"></span> in <span class="school"></span>
+          
+             <span class="fullname"></span> is from <span class="address"></span>.
+          
+           </p>
+          
+          <h3 class="ui header">
+            
+             <span class="fullname"></span> Skills 
+             
+          </h3>
+           <p>
+     <span class="fullname"></span> 
+   have skills in <span class="skills"></span> and other Programming Languages <span class="otherskills"></span> <span class="fullname"></span> is using cellphone to program all his projects and learn more Programming Languages.
+   </p>
+     
+        </div>
+        <div class="six wide right floated column">
+          
+          <div class="ui loading basic segment" id="loader">
+            <div class="image">
+              <img class="ui fluid image" id="image">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+       <div class="margin-top"></div>
+    </div>
+  </div>
 
 
   <!--Contact-->
-  <div class="ui inverted vertical footer segment" id="contact">
+  <div class="ui inverted vertical footer segment">
     
        <h4 class="ui horizontal inverted divider">
          Message 
        </h4>
 
-  <form action="https://000database.000webhostapp.com/Database/Message/index.php" method="post">
+  <form method="post" class="meesage" id="message">
      <div class="ui inverted placeholder segment">
        <div class="ui two column  grid">
          <div class="column">
@@ -112,17 +185,25 @@
           Contact
         </h4>
         <div class="ui inverted link list">
-          <a href="mailto: jimwellibay040@gmail.com" class="item">
+         <div class="email">
+          <a class="item">
             <i class="mail icon"></i>
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100073787000897" class="item">
+         </div>
+         <div class="item">
+          <a class="facebook">
             <i class="facebook icon"></i>
           </a>
+         </div>
         </div>
       </div>
       <div class="ten wide column">
         <h4 class="ui inverted header">What is it</h4>
-        <p>This is the website portfolio of Jimwell Ibay to know who is him.</p>
+        <p>
+           <div class="webdescription">
+          
+           </div>
+        </p>
       </div>
        <div class="three wide column">
          <h4 class="ui inverted header">
@@ -145,9 +226,15 @@
        </div>
     </div>
       <h4 class="ui horizontal inverted divider" id="footer">
-        Jimwell Website Portfolio
+        <div class="webname">
+
+        </div>
       </h4>
-      <p>Release Mar, 18 2022. Last edited April 4, 2022. &copy; Jimwell Ibay</p>
+      <p>
+        Release <span class="release"></span>. Last edited <span class="edited"></span>. </p>
+        
+        <p> &copy; <span class="fullname"></span> </p>
+      </p>
   </div>
 </div>
 
@@ -157,9 +244,8 @@
 <!--JQuery-->
 <script src="../../framework/jquery/jquery.min.js"></script>
 
-
-<!--Jimwell Class-->
-<script src="../../class/jimwell/jimwell.js"></script>
+<!--Data-->
+<script src="../../data/data.js"></script>
 
 <!--JavaScript Main-->
 <script src="script/main.js"></script>

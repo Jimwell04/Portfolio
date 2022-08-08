@@ -28,6 +28,20 @@ const webname = $(".webname");
 const webdescription = $(".webdescription");
 const release = $(".release");
 const edited = $(".edited");
+const weburl = $(".weburl");
+const webrepo = $(".webrepo");
+const weburllink = $(".weburllink");
+const webrepolink = $(".webrepolink");
+const webauthor = $(".webauthor");
+const essential = $(".essential");
+const framework = $(".framework");
+const server = $(".server");
+const database = $(".database");
+const host = $(".host");
+const webcopyright = $(".webcopyright");
+
+// Github
+const github = $("#github");
 
 $(document).ready(() => {
   
@@ -71,6 +85,42 @@ $(document).ready(() => {
     webdescription.html(data.Description);
     release.html(data.Date.Release);
     edited.html(data.Date.Edited);
+    
+    weburl.html(data.Url);
+    weburllink.attr("href", data.Url);
+    
+    webrepo.html(data.Repository);
+    webrepolink.attr("href", data.Repository);
+    
+    webauthor.html(data.Author);
+    
+    essential.html(data.Component.Essential);
+    framework.html(data.Component.Framework);
+    server.html(data.Component.Server);
+    database.html(data.Component.Database);
+    host.html(data.Component.Hosting);
+    
+    webcopyright.html(data.Copyright);
+    
+  });
+  
+  // GitHub Data
+  $.getJSON("../../data/github.json", (data) => {
+    
+    for (let x in data) {
+      
+      github.append(
+      `
+      <a href="${data[x]}" class="item">
+            <button class="ui icon grey button fluid">
+                <i class="github icon"></i>
+                   ${x}
+            </button>
+       </a>
+       `
+            );
+      
+    }
     
   });
   

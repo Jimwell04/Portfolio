@@ -1,0 +1,93 @@
+   <!--Info Modal-->
+   <div class="ui modal" id="modal">
+      <div class="ui attached message">
+        <div class="header">
+          <span class="webname"></span>
+        </div>
+        <p>
+          <span class="webdescription"></span>
+        </p>
+      </div>
+      <div class="ui attached segment">
+        
+        <ul class="ui list">
+          <li>name: 
+          <b>
+            <span class="webname"></span>
+          </b>
+          </li>
+          
+          <li>url: 
+          <a class="weburllink">
+            <span class="weburl"></span>
+          </a>
+          </li>
+          
+          <li>repo:
+          <a class="webrepolink">
+            <span class="webrepo"></span>
+          </a>
+          </li>
+          
+          <li>author: 
+          <b>
+            <span class="webauthor"></span>
+          </b>
+          </li>
+        </ul>
+        
+        <div class="ui sub header">
+          Creation 
+        </div>
+        <p>
+          This website is created on 
+          <b>
+            <span class="release"></span>
+          </b>
+          and last edited on 
+          <b>
+          <span class="edited" ></span>
+          </b>
+        </p>
+        
+        <div class="ui sub header">
+          Technology use
+        </div>
+        <p>
+          This website is created using 
+          <b>
+          <span class="essential"></span> 
+          </b>
+          for essential components of the website and website is created using 
+          <b>
+          <span class="framework"></span> 
+          </b>
+          framework for the UI and UX experience.
+        </p>
+        
+        <p>
+          This website is using 
+          <b>
+          <span class="database"></span>
+          </b>
+          for database and 
+          <b>
+          <span class="server"></span>
+          </b>
+          for server side.
+        </p>
+        
+        <p>
+          This website is using 
+          <b>
+          <span class="host"></span>
+          </b>
+          to access this website online.
+        </p>
+
+        
+      </div>
+      <div class="ui attached message">
+        <div class="webcopyright"></div>
+      </div>
+   </div>

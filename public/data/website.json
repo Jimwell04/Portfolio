@@ -1,11 +1,27 @@
 {
   
+  "Author": "Jimwell Ibay",
+  
   "Name": "Jimwell Website Portfolio",
   "Description": "This is the website portfolio of Jimwell Ibay to know who is him.",
   
   "Date": {
     "Release": "March 18, 2022",
-    "Edited": "August 5, 2022"
-  }
+    "Edited": "August 6, 2022"
+  },
+  
+  "Component": {
+    "Essential": "HTML, JavaScript, CSS",
+    "Framework": "Semantic UI and jQuery",
+    "Server": "PHP",
+    "Database": "000webhost",
+    "Hosting": "Firebase Hosting"
+  },
+  
+  "Url": "https://portfolio-7cc64.firebaseapp.com/",
+  
+  "Repository": "https://github.com/Jimwell04/Portfolio",
+  
+  "Copyright": "Copyright &copy; 2022"
   
 }

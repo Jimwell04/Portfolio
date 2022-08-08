@@ -8,3 +8,15 @@ window.setInterval(() => {
   } 
   
 },0.1);
+
+$(document).ready(() => {
+  
+  // Image Load
+
+  img.on("load", () => {
+
+    loader.removeClass();
+
+  });
+  
+});
