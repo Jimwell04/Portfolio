@@ -40,6 +40,101 @@
            </a>
           </div>
         </div>
+        
+   <!--Info Modal-->
+   <div class="ui modal" id="modal">
+     <div class="ui attached message">
+       <div class="header">
+         <span class="webname"></span>
+       </div>
+       <p>
+         <span class="webdescription"></span>
+       </p>
+     </div>
+     <div class="ui attached segment">
+
+       <ul class="ui list">
+         <li>name:
+           <b>
+             <span class="webname"></span>
+           </b>
+         </li>
+
+         <li>url:
+           <a class="weburllink">
+             <span class="weburl"></span>
+           </a>
+         </li>
+
+         <li>repo:
+           <a class="webrepolink">
+             <span class="webrepo"></span>
+           </a>
+         </li>
+
+         <li>author:
+           <b>
+             <span class="webauthor"></span>
+           </b>
+         </li>
+       </ul>
+
+       <div class="ui sub header">
+         Creation
+       </div>
+       <p>
+         This website is created on
+         <b>
+           <span class="release"></span>
+         </b>
+         and last edited on
+         <b>
+           <span class="edited"></span>
+         </b>
+       </p>
+
+       <div class="ui sub header">
+         Technology use
+       </div>
+       <p>
+         This website is created using
+         <b>
+           <span class="essential"></span>
+         </b>
+         for essential components of the website and website is created using
+         <b>
+           <span class="framework"></span>
+         </b>
+         framework for the UI and UX experience.
+       </p>
+
+       <p>
+         This website is using
+         <b>
+           <span class="database"></span>
+         </b>
+         for database and
+         <b>
+           <span class="server"></span>
+         </b>
+         for server side.
+       </p>
+
+       <p>
+         This website is using
+         <b>
+           <span class="host"></span>
+         </b>
+         to access this website online.
+       </p>
+
+
+     </div>
+     <div class="ui attached message">
+       <div class="webcopyright"></div>
+     </div>
+   </div>
+        
       </div>
       
       <!--Moto-->
@@ -188,13 +283,15 @@
          <div class="email">
           <a class="item">
             <i class="mail icon"></i>
+            Email
           </a>
          </div>
-         <div class="item">
           <a class="facebook">
+           <div class="item">
             <i class="facebook icon"></i>
+            Facebook 
+          </div>
           </a>
-         </div>
         </div>
       </div>
       <div class="ten wide column">
@@ -209,19 +306,10 @@
          <h4 class="ui inverted header">
            GitHub 
          </h4>
-         <div class="ui inverted link list">
-            <a href="" class="item">
-              <i class="github icon"></i>
-            </a>
-            <a href="" class="item">
-              <i class="github icon"></i>
-            </a>
-            <a href="" class="item">
-              <i class="github icon"></i>
-            </a>
-            <a href="" class="item">
-              <i class="github icon"></i>
-            </a>
+         <div class="ui inverted link list" id="githubdesktop">
+
+
+
          </div>
        </div>
     </div>
@@ -238,11 +326,12 @@
   </div>
 </div>
 
-<!--Semantic UI JS-->
-<script src="../../framework/semantic ui/semantic.min.js"></script>
-
 <!--JQuery-->
 <script src="../../framework/jquery/jquery.min.js"></script>
+
+
+<!--Semantic UI JS-->
+<script src="../../framework/semantic ui/semantic.min.js"></script>
 
 <!--Data-->
 <script src="../../data/data.js"></script>

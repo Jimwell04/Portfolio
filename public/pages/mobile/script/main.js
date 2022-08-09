@@ -44,11 +44,8 @@ $(document).ready(() => {
     
     let modal = $("#modal");
     
-    modal.load("../../data/modal.txt", () => {
-      
       modal.modal("show");
-      
-    });
+ 
   });
   
 });

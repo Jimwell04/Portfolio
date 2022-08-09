@@ -42,6 +42,7 @@ const webcopyright = $(".webcopyright");
 
 // Github
 const github = $("#github");
+const githubdesktop = $("#githubdesktop");
 
 $(document).ready(() => {
   
@@ -119,6 +120,15 @@ $(document).ready(() => {
        </a>
        `
             );
+            
+      githubdesktop.append(`
+      
+            <a href="${data[x]}" class="item">
+              <i class="github icon"></i>
+              ${x}
+            </a>
+      
+      `);
       
     }
     

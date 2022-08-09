@@ -9,6 +9,13 @@ window.setInterval(() => {
   
 },0.1);
 
+// Main Program
+let loader = $("#loader");
+let img = $("#image");
+let info = $("#info");
+let modal = $("#modal");
+
+
 $(document).ready(() => {
   
   // Image Load
@@ -17,6 +24,16 @@ $(document).ready(() => {
 
     loader.removeClass();
 
+  });
+  
+  // Info Modal
+
+  info.on("click", () => {
+    
+    let modal = $("#modal");
+    
+      modal.modal("show");
+ 
   });
   
 });
