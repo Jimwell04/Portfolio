@@ -17,6 +17,7 @@ const skills = $(".skills");
 const otherskills = $(".otherskills");
 
 // URL
+const project = $("#project");
 const facebook = $(".facebook");
 const image = $(".image img");
 const grouplink = $(".grouplink");
@@ -68,6 +69,8 @@ $(document).ready(() => {
   
   // URL Data
   $.getJSON("../../data/url.json", (data) => {
+    
+    project.attr("href", data.href.Project)
     
     facebook.attr("href", data.href.Facebook);
     grouplink.attr("href", data.href.Group);
