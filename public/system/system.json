@@ -3,7 +3,7 @@
   "ShoutDown": false,
   
   "Development": {
-    "Developing": true,
+    "Developing": false,
     "Editing": false
   }
   
